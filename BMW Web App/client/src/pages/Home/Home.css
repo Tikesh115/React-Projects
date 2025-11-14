@@ -1,0 +1,195 @@
+.top img {
+    height: 660px;
+    width: 100%;
+    object-fit: cover; 
+    display: block;
+}
+
+.top {
+    width: 100%;
+    position: relative;
+}
+
+.top h1 {
+    position: absolute;
+    font-weight: 600;
+    color: white;
+    z-index: 100;
+    bottom: 200px;
+    right: 10px;
+    font-size: 75px;
+}
+
+.side-view {
+    height: 660px;
+    width: 100%;
+    display: flex;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    justify-content: center;
+}
+
+.side-view .side-image {
+    height: 660px; 
+    width: 100%; 
+    object-fit: cover;
+    display: block;
+}
+
+.side-view .skew {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: #9fb88f;
+    transform: skewY(30deg);
+    height: 660px;
+    z-index: 2;
+}
+
+.side-view .car {
+    position: absolute;
+    height: 100%;
+    z-index: 4;
+}
+
+.side-view .M5-F90 {
+    color: white;
+    font-size: 250px;
+    position: absolute;
+    z-index: 3;
+    margin-top: 25px;
+    text-shadow: 10px 10px 5px rgb(48, 45, 45);
+}
+
+.svg-flag {
+    display: flex;
+}
+
+.svg-flag div {
+    display: inline-block;
+    height: 15px;
+    width: 150px;
+    margin: 0;
+    padding: 0;
+    transform: skewX(-45deg);
+    transform-origin: top left;
+    z-index: 10;
+}
+
+.intro {
+    background-color: rgb(43, 41, 41);
+}
+
+.intro .blue {
+    background-color: #00a1d6;
+}
+
+.intro .darkb-blue {
+    background-color: #353189;
+}
+
+.intro .red {
+     background-color: #e3242c;
+}
+
+.intro .details {
+    padding: 20px 60px;
+    color: white;
+}
+
+.intro .details h1 {
+    font-size: 50px; font-weight: 600;
+}
+
+.intro .details h3 {
+    font-size:20px; 
+    font-weight: 500;
+}
+
+.intro .details p {
+     padding-top: 10px;
+     padding-bottom: 10px;
+}
+
+/* perfomance-page */
+.performance {
+    position: relative;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.performance .perf {
+    position: absolute;
+    color: rgb(43, 41, 41);
+    border: 5px solid #9cfc97;
+    margin: 0px 20px;
+    margin-top: 70px;
+    padding: 0px 25px;
+    font-size: 65px;
+    font-weight: 600;
+    border-radius: 20px;
+}
+
+.performance div {
+    height: auto;
+    width: 100%;
+    display: block;
+    margin-top: 30px;
+}
+
+.performance div .box {
+    height: 500px;
+    width: auto;
+    margin: 0px 100px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.performance div .box img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.performance div .box .img {
+    height: 330px;
+    width: 540px;
+}
+
+.performance div .box .info {
+    height: 330px;
+    width: 540px;
+    margin-left: 120px;
+    padding-top: 0px;
+}
+
+.performance div .box .info1 {
+    height: 330px;
+    width: 540px;
+    margin-right: 120px;
+    text-align: right;
+}
+
+.performance div .box .info h1 {
+    font-size: 45px;
+    font-weight: 550;
+    color: rgb(43, 41, 41);
+    margin-bottom: 10px;
+}
+
+.performance div .box .info1 h1 {
+    font-size: 45px;
+    font-weight: 550;
+    color: rgb(43, 41, 41);
+    margin-bottom: 10px;
+}
+
+/* ek baar ye inline css ko hata dun phir run karke dekhta hun
+TU CHATS KO BAJU ME RAK
+TAKI CHATS DEK SAKE
+Okay
+ */
