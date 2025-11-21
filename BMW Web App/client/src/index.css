@@ -6,8 +6,10 @@
 }
 
 @theme {
-  --color-primary: #2563EB;
-  --color-primary-dull: #1F58D8;
+  --color-primary: #52796f;
+  --color-primary-dull: #354f52;
   --color-light: #F1F5F9;
   --color-borderColor: #C4C7D2;
 }
+
+/* #3e644a */

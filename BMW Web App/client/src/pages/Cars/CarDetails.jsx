@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 
-import { dummyCarData } from '../../assets/assets';
-// import dummyCarData from '../components/dummyCarData'; 
+import { assets, dummyCarData } from '../../assets/assets';
 import Loader from '../../components/Loader/Loader';
 
 const CarDetails = () => {
@@ -42,7 +41,8 @@ const CarDetails = () => {
     const today = new Date().toISOString().split('T')[0];
 
     return (
-        <div className='px-6 md:px-16 lg:px-24 xl:px-32 mt-16'>
+        <div className='bg-[#0f0f17] pt-27'>
+        <div className='px-6 pb-20 pt-10 bg-light md:px-16 lg:px-24 xl:px-32'>
             {/* Back Button */}
             <button
                 onClick={() => navigate(-1)}
@@ -74,10 +74,10 @@ const CarDetails = () => {
 
                         {/* Car Specs (Mapped) */}
                         <div>
-                            <hr className='border-borderColor my-6' />
+                            <hr className='border-borderColor border-t-2 my-6' />
                             <div className='grid grid-cols-2 sm:grid-cols-4 gap-4'>
                                 {carSpecs.map(({ icon, text }) => (
-                                    <div key={text} className='flex flex-col items-center bg-light p-4 rounded-lg'>
+                                    <div key={text} className='flex flex-col items-center bg- border-2 border-gray-400 p-4 rounded-lg'>
                                         <img src={icon} alt="" className='h-5 mb-2' />
                                         {text}
                                     </div>
@@ -108,7 +108,7 @@ const CarDetails = () => {
                 </div>
 
                 {/* Right: Booking Form */}
-                <form onSubmit={handleSubmit} className='shadow-lg h-max sticky top-18 rounded-xl p-6 space-y-6 text-gray-500'>
+                <form onSubmit={handleSubmit} className='shadow-lg bg-light h-max top-18 rounded-xl p-6 space-y-6 text-gray-500'>
 
                     {/* Price */}
                     <p className='flex items-center justify-between text-2xl text-gray-800 font-semibold'>
@@ -116,7 +116,7 @@ const CarDetails = () => {
                         <span className='text-base text-gray-400 font-normal'>per day</span>
                     </p>
 
-                    <hr className='border-borderColor my-6' />
+                    <hr className='border-borderColor border-t-2 my-6' />
 
                     {/* Pickup Date */}
                     <div className='flex flex-col gap-2'>
@@ -144,7 +144,7 @@ const CarDetails = () => {
                     {/* Book Button */}
                     <button
                         type="submit"
-                        className='w-full full bg-primary hover:bg-primary-dull transition-all py-3 font-medium text-white rounded-xl cursor-pointer'
+                        className='w-full bg-primary hover:bg-primary-dull transition-all py-3 font-medium text-white rounded-xl cursor-pointer'
                     >
                         Book Now
                     </button>
@@ -154,6 +154,7 @@ const CarDetails = () => {
                 </form>
 
             </div>
+        </div>
         </div>
     )
 }

@@ -1,10 +1,1 @@
-<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_4555_2703)">
-<path d="M15.8333 4.16667V5.83333H12.5V4.16667H15.8333ZM7.5 4.16667V9.16667H4.16667V4.16667H7.5ZM15.8333 10.8333V15.8333H12.5V10.8333H15.8333ZM7.5 14.1667V15.8333H4.16667V14.1667H7.5ZM17.5 2.5H10.8333V7.5H17.5V2.5ZM9.16667 2.5H2.5V10.8333H9.16667V2.5ZM17.5 9.16667H10.8333V17.5H17.5V9.16667ZM9.16667 12.5H2.5V17.5H9.16667V12.5Z" fill="#2563EB"/>
-</g>
-<defs>
-<clipPath id="clip0_4555_2703">
-<rect width="20" height="20" fill="white"/>
-</clipPath>
-</defs>
-</svg>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0,0,256,256"><defs><clipPath id="clip-1"><rect x="0" y="0" width="20" height="20" id="clip0_4555_2703" fill="none"></rect></clipPath></defs><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(12.8,12.8)"><g clip-path="url(#clip-1)"><path d="M15.8333,4.16667v1.66666h-3.3333v-1.66666zM7.5,4.16667v5h-3.33333v-5zM15.8333,10.8333v5h-3.3333v-5zM7.5,14.1667v1.6666h-3.33333v-1.6666zM17.5,2.5h-6.6667v5h6.6667zM9.16667,2.5h-6.66667v8.3333h6.66667zM17.5,9.16667h-6.6667v8.33333h6.6667zM9.16667,12.5h-6.66667v5h6.66667z" fill="#354f52"></path></g></g></g></svg>
